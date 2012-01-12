@@ -52,7 +52,7 @@ see https://github.com/basejump/grails-dao
     // URL to the plugin's documentation
     def documentation = "http://grails.org/plugin/dao"
 	
-	def loadAfter = ['hibernate']
+	def loadAfter = ['hibernate', 'datasources']
 
     def watchedResources = ["file:./grails-app/dao/**/*Dao.groovy","file:./grails-app/services/**/*Dao.groovy",
                             "file:./plugins/*/grails-app/dao/**/*Dao.groovy","file:./plugins/*/grails-app/services/**/*Dao.groovy"]
